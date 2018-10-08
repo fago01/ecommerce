@@ -1,6 +1,71 @@
 @import 'node_modules/susy/sass/susy';
 @import 'node_modules/susy/sass/susy-prefix';
 
-.testsusy {
-  width: susy-span(6 of 12);
+
+
+$susy: (
+  'spread': 'wider',
+  'container-spread': 'narrow'
+);
+
+body{
+  width:960px;
+  margin: auto;
+}
+.topbar {
+  display: flex;
+}
+
+.col1 {
+  flex-basis: span(1 of 12);
+}
+
+.col2 {
+  flex-basis: span(1 of 12);
+}
+.col3 {
+  flex-basis: span(1 of 12);
+}
+.col4 {
+  flex-basis: span(1 of 12);
+}
+.col5 {
+  flex-basis: span(1 of 12);
+}
+.col6 {
+  flex-basis: span(1 of 12);
+}
+.col7 {
+  flex-basis: span(1 of 12);
+}
+.col8 {
+  flex-basis: span(1 of 12);
+}
+.col9 {
+  flex-basis: span(1 of 12);
+}
+.col10 {
+  flex-basis: span(1 of 12);
+}
+.col11 {
+  flex-basis: span(1 of 12);
+}
+
+.col12 {
+  flex-basis: span(1 of 12);
+}
+
+
+.header {
+  display: flex;
+}
+
+
+
+.log{
+  flex-basis: span(4 of 12);
+}
+
+.tel{
+  flex-basis: span(4 of 12);
 }

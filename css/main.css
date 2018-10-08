@@ -1,2 +1,51 @@
-.testsusy {
-  width: 49.15254%; }
+body {
+  width: 960px;
+  margin: auto; }
+
+.topbar {
+  display: flex; }
+
+.col1 {
+  flex-basis: 10.16949%; }
+
+.col2 {
+  flex-basis: 10.16949%; }
+
+.col3 {
+  flex-basis: 10.16949%; }
+
+.col4 {
+  flex-basis: 10.16949%; }
+
+.col5 {
+  flex-basis: 10.16949%; }
+
+.col6 {
+  flex-basis: 10.16949%; }
+
+.col7 {
+  flex-basis: 10.16949%; }
+
+.col8 {
+  flex-basis: 10.16949%; }
+
+.col9 {
+  flex-basis: 10.16949%; }
+
+.col10 {
+  flex-basis: 10.16949%; }
+
+.col11 {
+  flex-basis: 10.16949%; }
+
+.col12 {
+  flex-basis: 10.16949%; }
+
+.header {
+  display: flex; }
+
+.log {
+  flex-basis: 35.59322%; }
+
+.tel {
+  flex-basis: 35.59322%; }
