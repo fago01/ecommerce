@@ -23,3 +23,10 @@ git branch
 git branch //name
 git checkout //name
 git status
+
+
+////bower
+npm install -g bower
+
+///breakpoint
+bower install breakpoint-sass --save-dev
